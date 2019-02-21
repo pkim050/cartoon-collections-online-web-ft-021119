@@ -6,7 +6,7 @@ end
 def summon_captain_planet(array)# code an argument here
   # Your code here
   array.collect do |element|
-    element[0].upcase
+    element[0].upcase!
     element << "!"
   end
   array
